@@ -1,0 +1,9 @@
+// Button
+button {
+  @apply h-[6.4rem] border-[.1rem] border-[#6F00DD] bg-[#6F00DD] px-[3.2rem] text-white text-[1.6rem] font-medium;
+}
+
+// Input
+input {
+  @apply w-full bg-transparent border-[.1rem] border-[#ffffff] px-[3.2rem] h-[6.4rem] text-[1.6rem] font-medium text-[#ffffff];
+}

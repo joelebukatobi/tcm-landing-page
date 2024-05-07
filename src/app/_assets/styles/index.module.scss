@@ -1,0 +1,32 @@
+.landing {
+  & header {
+    @apply mt-[9.6rem];
+    & h1 {
+      @apply text-[8rem] font-semibold text-center text-[#ffffff] leading-[8.8rem];
+    }
+    & p {
+      @apply text-[2rem] mt-[2.4rem] text-[#ffffff] text-center;
+    }
+  }
+
+  & form {
+    @apply my-[3.5rem] flex items-center justify-center gap-x-[3.5rem];
+
+    & button {
+      @apply w-[14rem];
+    }
+
+    & input {
+      &:nth-of-type(1) {
+        @apply w-[53rem];
+      }
+      &:nth-of-type(2) {
+        @apply w-[18.2rem];
+      }
+    }
+  }
+
+  &-image {
+    @apply w-full;
+  }
+}

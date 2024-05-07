@@ -1,0 +1,24 @@
+.navbar {
+  @apply flex justify-between items-center;
+
+  &-logo {
+    //
+    @apply flex gap-x-[1.6rem];
+    //
+    & h4 {
+      @apply w-[16.9rem] font-extrabold text-[1.779rem] text-[#ffffff];
+    }
+  }
+
+  &-menu {
+    @apply lg:hidden;
+  }
+
+  &-link {
+    @apply flex gap-x-[4rem];
+  }
+
+  &-item {
+    @apply font-medium text-[1.6rem] text-[#ffffff];
+  }
+}
