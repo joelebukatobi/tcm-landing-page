@@ -1,8 +1,8 @@
 .landing {
   & header {
-    @apply mt-[9.6rem];
+    @apply mt-[4rem] lg:mt-[9.6rem];
     & h1 {
-      @apply text-[8rem] font-semibold text-center text-[#ffffff] leading-[8.8rem];
+      @apply text-[4.8rem] lg:text-[8rem] font-semibold text-center text-[#ffffff] leading-[6.2rem] lg:leading-[8.8rem];
     }
     & p {
       @apply text-[2rem] mt-[2.4rem] text-[#ffffff] text-center;
@@ -10,18 +10,19 @@
   }
 
   & form {
-    @apply my-[3.5rem] flex items-center justify-center gap-x-[3.5rem];
+    @apply my-[3.5rem] flex flex-col lg:flex-row items-center justify-center gap-x-[3.5rem];
 
     & button {
-      @apply w-[14rem];
+      @apply lg:w-[14rem] order-3 lg:order-1;
     }
 
     & input {
+      @apply mb-[1.6rem] lg:mb-0;
       &:nth-of-type(1) {
-        @apply w-[53rem];
+        @apply w-full lg:w-[53rem];
       }
       &:nth-of-type(2) {
-        @apply w-[18.2rem];
+        @apply w-full lg:w-[18.2rem];
       }
     }
   }
