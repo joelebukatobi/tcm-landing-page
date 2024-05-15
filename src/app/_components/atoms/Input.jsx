@@ -1,4 +1,4 @@
-export const Input = ({ classname, type, placeholder, name, value, id, required }) => {
+export const Input = ({ classname, type, placeholder, name, value, id, required, onChange }) => {
   return (
     <input
       className={`form-control ${classname}`}
@@ -8,6 +8,7 @@ export const Input = ({ classname, type, placeholder, name, value, id, required 
       value={value}
       id={id}
       required={required}
+      onChange={onChange}
     />
   );
 };
