@@ -26,3 +26,41 @@
     @apply hidden;
   }
 }
+
+.modal {
+  @apply fixed justify-center items-center h-[100vh] w-[100vw] top-0 left-0 bg-[rgba(0,0,0,0.6)] z-[100] p-[2.4rem];
+
+  &-card {
+    @apply relative md:w-[60%] lg:w-[30%] rounded-[.8rem] px-[2.4rem] pt-[9.6rem] pb-[4rem] bg-[#ffffff] flex flex-col justify-center items-center;
+
+    & h4 {
+      @apply text-[2.8rem] md:text-[3.2rem] font-bold text-center;
+    }
+
+    & hr {
+      @apply h-[.1rem] bg-[#b8b8b8] border-0 w-[75%] my-[1.6rem];
+    }
+
+    & p {
+      @apply text-center text-[1.6rem] lg:text-[2rem] mb-[1.6rem];
+    }
+
+    & a {
+      &:nth-of-type(2) {
+        @apply w-1/2;
+      }
+    }
+
+    & button {
+      @apply w-full h-[5.6rem];
+    }
+  }
+
+  &-close {
+    @apply absolute right-[2.4rem] top-[2.4rem] cursor-pointer;
+  }
+
+  &-check {
+    @apply mb-[1.6rem];
+  }
+}
