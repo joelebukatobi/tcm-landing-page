@@ -28,7 +28,7 @@
 }
 
 .modal {
-  @apply fixed justify-center items-center h-[100vh] w-[100vw] top-0 left-0 bg-[rgba(0,0,0,0.6)] z-[100] p-[2.4rem];
+  @apply fixed justify-center items-center h-[100vh] w-[100vw] top-0 left-0 bg-[rgba(0,0,0,0.6)] z-[100] p-[2.4rem] border-2;
 
   &-card {
     @apply relative md:w-[60%] lg:w-[30%] rounded-[.8rem] px-[2.4rem] pt-[9.6rem] pb-[4rem] bg-[#ffffff] flex flex-col justify-center items-center;
