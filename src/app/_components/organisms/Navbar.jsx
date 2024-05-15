@@ -5,9 +5,6 @@ import { useState } from 'react';
 // Next JS
 import Image from 'next/image';
 
-// Components
-import { Container } from '@/_components/molecules/Container';
-
 // Images
 import Logo from '@/_assets/images/icons/logo.svg';
 import IconMenu from '@/_assets/images/icons/icon-menu.svg';
