@@ -8,7 +8,7 @@ import { Button } from '@/_components/atoms/Button';
 import IconCheck from '@/_assets/images/icons/icon-check.svg';
 import IconClose from '@/_assets/images/icons/icon-modal-close.svg';
 
-export const Modal = ({ modal }) => {
+export const Modal = () => {
   return (
     <div className="modal-card">
       <a href={'/'} className="modal-close">
